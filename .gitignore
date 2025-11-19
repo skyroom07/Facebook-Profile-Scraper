@@ -1,0 +1,41 @@
+# Node / web tooling
+node_modules/
+dist/
+build/
+.parcel-cache/
+.turbo/
+npm-debug.log*
+pnpm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+
+# Environment & secrets
+.env
+.env.*
+!.env.example
+
+# Runtime artifacts
+logs/
+*.log
+*.tmp
+*.pid
+
+# Scraped datasets
+*.csv
+*.jsonl
+page.html
+
+# Executables & installers
+*.exe
+*.msi
+
+# OS noise
+.DS_Store
+Thumbs.db
+desktop.ini
+
+# IDE settings
+.idea/
+.vscode/
+*.code-workspace
+
